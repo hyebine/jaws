@@ -1,0 +1,70 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+}
+
+/* 각페이지마다 클래스가 다르므로 페이지마다 다른 디자인가능 */
+
+.mainpage>.container,
+.store_search .container {
+    width: auto !important;
+    max-width: none !important;
+    padding: 0;
+}
+
+.setmenu .ety-mt-main {
+    display: none !important;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:after {
+    display: none !important;
+}
+
+.btns {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.btns>* {
+    position: unset !important;
+}
+
+.btns>a {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+#chb_gnb .navbar-brand {
+    display: block;
+    max-width: 134px !important;
+    width: 30%;
+}
+
+#chb_gnb .navbar-brand:after {
+    content: "";
+    display: block;
+    height: 0;
+    padding-top: 27%;
+    background-image: url(http://www.jawsfood.co.kr/images/common/logo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.hdblackmode #chb_gnb .navbar-brand:after {
+
+    background-image: url(http://www.jawsfood.co.kr/images/common/logo2.png);
+
+}

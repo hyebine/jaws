@@ -1,0 +1,58 @@
+submit{width:100%;height:45px;font-size:1.167em;font-weight:700;margin:5px 0;border-radius:4px}
+.sod_frm_mobile .btn_cancel,.sod_frm_mobile .btn01{width:100%;height:45px;line-height:43px;font-size:1.167em;font-weight:700;padding:0;border-radius:4px}
+.sod_frm_mobile #sod_frm_escrow{margin:10px}
+.sod_frm_mobile #sod_frm_escrow h2{font-size:1.25em}
+.sod_frm_mobile #od_pay_sl h3{font-size:1.25em}
+.sod_frm_mobile #od_tot_price{background:none;font-weight:700}
+
+html.no-overflowscrolling #sc_coupon_frm, html.no-overflowscrolling #od_coupon_frm {height:auto;max-height:10000px !important} /* overflow 미지원 기기 대응 */
+#sod_frm_pay_info {margin:0 0 10px}
+
+/* 네이버페이 */
+.itemform-naverpay {margin:15px 0;clear:both}
+.cart-naverpay {margin-top:15px}
+
+/* theme.config.php 파일에서 G5_COMMUNITY_USE 를 false로 한 경우 1:1 문의와 게시판 css 처리 */
+#bo_list table td, #fqalist table td {border-left:0;border-right:0}
+#bo_v_top .btn_admin, #bo_list .btn_admin {padding-top:0}
+
+/* 개인결제 */
+.pesonal {background:#fff;border:1px solid #e3e5e8;margin-bottom:30px}
+.pesonal h2 {border-bottom:1px solid #e2e4e7;font-size:1.167em;padding:20px}
+.pesonal .tbl_frm01 {padding:20px 10px;margin:0}
+.pesonal th {text-align:left}
+.pesonal td {text-align:left;font-weight:bold}
+.pesonal td input {width:100%}
+.pesonal .half_tr {width:50%}
+
+#personal_pay {background:#fff;border:1px solid #e3e5e8}
+#personal_pay h2 {background:#fff;border-bottom:1px solid #e2e4e7;font-size:1.167em;padding:20px}
+#personal_pay input[type="radio"] {}
+#personal_pay .lb_icon {position:relative;display:inline-block;cursor:pointer;z-index:1}
+#personal_pay input[type="radio"]:checked+.lb_icon {z-index:3}
+
+#personal_pay legend {position:absolute;font-size:0;line-height:0;overflow:hidden}
+#personal_pay .KPAY {width:58px;background:url('../../../img/kpay.png') no-repeat 50% 50% #fff;overflow:hidden;text-indent:-999px}
+#personal_pay .PAYNOW {width:75px;background:url('../../../img/paynow.png') no-repeat 50% 50% #fff;overflow:hidden;text-indent:-999px;border-radius:30px}
+#personal_pay .PAYCO {width:75px;background:url('../../../img/payco.png') no-repeat 50% 50% #fff;overflow:hidden;text-indent:-999px;border-radius:30px}
+#personal_pay .kakaopay_icon {width:60px;background:url('../../../img/kakao.png') no-repeat 50% 50% #ffeb00;overflow:hidden;text-indent:-999px;border-radius:30px}
+#personal_pay .pay_way {border-bottom:1px solid #e2e4e7}
+#personal_pay #display_pay_button {border:0}
+
+
+/* input, radio */
+.selec_chk {position:absolute;top:0;left:0;width:0;height:0;opacity:0;outline:0;z-index:-1;overflow:hidden}
+.chk_box {position:relative}
+.chk_box input[type="checkbox"] {position:absolute;top:0;left:0;width:0;height:0;opacity:0;outline:0;z-index:-1;overflow:hidden}
+.chk_box input[type="checkbox"] + label {position:relative;padding-left:20px;color:#676e70}
+.chk_box input[type="checkbox"] + label:hover{color:#2172f8}
+.chk_box input[type="checkbox"] + label span {position:absolute;top:2px;left:0;width:15px;height:15px;display:block;margin:0;background:#fff;border:1px solid #d0d4df;border-radius:3px}
+.chk_box input[type="checkbox"]:checked + label {color:#000}
+.chk_box input[type="checkbox"]:checked + label span {background:url('../img/chk.png') no-repeat 50% 50% #3a8afd;border-color:#1471f6;border-radius:3px}
+
+.chk_box input[type="radio"] {position:absolute;top:0;left:0;width:0;height:0;opacity:0;outline:0;z-index:-1;overflow:hidden}
+.chk_box input[type="radio"] + label {position:relative;padding-left:23px;display:inline-block;color:#676e70}
+.chk_box input[type="radio"] + label span {position:absolute;top:0;left:0;width:15px;height:15px;display:block;background:#fff;border:1px solid #cdd6df;border-radius:50%}
+.chk_box input[type="radio"]:checked + label {color:#305af9}
+.chk_box input[type="radio"]:checked + label span:before {width:7px;height:7px;background:#305af9;content:'';position:absolute;top:3px;left:3px;border-radius:50%}
+
