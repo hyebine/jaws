@@ -97,19 +97,24 @@ if(G5_IS_MOBILE) {
 if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
-
+<!-- 폰트 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+<!-- 그리드시스템 부트스트랩 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+<!-- 아이콘 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
+<!-- 플러그인 swiper  -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<!-- owl Carousel -->
-<link rel="stylesheet" href="<?php echo G5_THEME_URL?>/assets/owlcarousel/css/owl.carousel.min.css">
-<link rel="stylesheet" href="<?php echo G5_THEME_URL?>/assets/owlcarousel/css/owl.theme.default.min.css">
 
 <!-- countdown -->
 <link href="<?php echo G5_THEME_URL?>/assets/countdown/css/demo.css" rel="stylesheet">
@@ -117,11 +122,12 @@ if(!defined('G5_IS_ADMIN'))
 <link href="<?php echo G5_THEME_URL?>/assets/bootstrap-social/bootstrap-social.css" rel="stylesheet">
 <link href="<?php echo G5_THEME_URL?>/css/animate.css" rel="stylesheet">
 <link href="<?php echo G5_THEME_URL?>/css/bootstrap-dropdownhover.css" rel="stylesheet">
-<!-- Custom & ety -->
-<link href="<?php echo G5_THEME_URL?>/css/modern-business.css" rel="stylesheet">
-<link href="<?php echo G5_THEME_URL?>/css/ety.css" rel="stylesheet">
+
+
 
 <!-- chb -->
+<link href="<?php echo G5_THEME_URL?>/css/modern-business.css" rel="stylesheet">
+<link href="<?php echo G5_THEME_URL?>/css/ety.css" rel="stylesheet">
 <link href="<?php echo G5_THEME_URL?>/chb/chb.css" rel="stylesheet">
 
 </head>
