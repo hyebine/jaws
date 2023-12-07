@@ -12,7 +12,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 
-<?php echo latest('pic_block','admin_main_banner',3, 100); ?>
+<?php echo latest('basic','swiper_main',3, 100); ?>
 
 
 

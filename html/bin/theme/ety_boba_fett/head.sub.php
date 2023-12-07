@@ -36,10 +36,11 @@ header("Pragma: no-cache"); // HTTP/1.0
 <head>
 <meta charset="utf-8">
 <?php
-// 반응형 처리
+
     echo '<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">'.PHP_EOL;
     echo '<meta name="HandheldFriendly" content="true">'.PHP_EOL;
     echo '<meta name="format-detection" content="telephone=no">'.PHP_EOL;
+
     echo '<meta http-equiv="imagetoolbar" content="no">'.PHP_EOL;
     echo '<meta http-equiv="X-UA-Compatible" content="IE=edge">'.PHP_EOL;
 
@@ -76,20 +77,20 @@ var g5_admin_url = "<?php echo G5_ADMIN_URL; ?>";
 <?php } ?>
 </script>
 <?php
-add_javascript('<script src="'.G5_JS_URL.'/jquery-2.2.4.min.js"></script>', 0);
+add_javascript('<script src="'.G5_JS_URL.'/jquery-2.2.4.js"></script>', 0);
 add_javascript('<script src="'.G5_JS_URL.'/jquery-migrate-1.4.1.min.js"></script>', 0);
-//쇼핑몰버전 지우기
+
 add_javascript('<script src="'.G5_JS_URL.'/jquery.menu.js?ver='.G5_JS_VER.'"></script>', 0);
 
 add_javascript('<script src="'.G5_JS_URL.'/common.js?ver='.G5_JS_VER.'"></script>', 0);
 add_javascript('<script src="'.G5_JS_URL.'/wrest.js?ver='.G5_JS_VER.'"></script>', 0);
 add_javascript('<script src="'.G5_JS_URL.'/placeholders.min.js"></script>', 0);
-//if 문 지우기
-    add_javascript('<script src="'.G5_JS_URL.'/modernizr.custom.70111.js"></script>', 1); // overflow scroll 감지
+add_javascript('<script src="'.G5_JS_URL.'/modernizr.custom.70111.js"></script>', 1); // overflow scroll 감지
 
 if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
+
 <!-- 폰트 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -98,23 +99,17 @@ if(!defined('G5_IS_ADMIN'))
 <!-- 그리드시스템 부트스트랩 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-<!-- 아이콘 -->
+<!-- 부트스트랩 아이콘 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
-<!-- 플러그인 swiper  -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+<!-- 플러그인 swiper / aos -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<!-- aos -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
 <link href="<?php echo G5_THEME_URL?>/css/bootstrap-dropdownhover.css" rel="stylesheet">
-
 
 <!-- chb -->
 <link href="<?php echo G5_THEME_URL?>/css/modern-business.css" rel="stylesheet">

@@ -90,3 +90,20 @@ h6 {
 .mainpage footer {
     background-color: yellow !important;
 }
+
+
+/* 글쓰기 나오게 하고 css 작업 */
+
+i.fa + .sound_only {
+
+    position: unset;
+    padding: 0 8px !important;
+    font-size: 14px;
+    line-height: 1;
+    overflow: visible !important;
+
+}
+
+.btn_bo_user li {
+    width: auto !important;
+}
