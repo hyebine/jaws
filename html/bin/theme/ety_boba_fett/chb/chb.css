@@ -45,6 +45,10 @@ h6 {
     background-color: rgba(0, 0, 0, .5);
 }
 
+.ety-main {
+    display: none;
+}
+
 
 #chb_gnb .navbar-brand {
     display: block;
@@ -82,3 +86,4 @@ h6 {
 .subpage .mbskin {
     margin-top: 174px;
 }
+
