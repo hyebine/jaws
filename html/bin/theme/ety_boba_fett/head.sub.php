@@ -115,14 +115,12 @@ if(!defined('G5_IS_ADMIN'))
 />
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+<!-- aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<!-- countdown -->
-<link href="<?php echo G5_THEME_URL?>/assets/countdown/css/demo.css" rel="stylesheet">
-<!-- bootstrap-social icon -->
-<link href="<?php echo G5_THEME_URL?>/assets/bootstrap-social/bootstrap-social.css" rel="stylesheet">
-<link href="<?php echo G5_THEME_URL?>/css/animate.css" rel="stylesheet">
+
 <link href="<?php echo G5_THEME_URL?>/css/bootstrap-dropdownhover.css" rel="stylesheet">
-
 
 
 <!-- chb -->
