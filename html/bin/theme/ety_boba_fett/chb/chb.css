@@ -68,3 +68,17 @@ h6 {
     background-image: url(http://www.jawsfood.co.kr/images/common/logo2.png);
 
 }
+
+
+.subpage #chb_gnb .nav-link {
+    color: black;
+}
+
+
+.subpage #chb_gnb  {
+    border-bottom: 1px solid grey !important;
+
+}
+.subpage .mbskin {
+    margin-top: 174px;
+}
